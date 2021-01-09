@@ -1,0 +1,143 @@
+{
+    "production": {
+        "mongodb": {
+            "user": "",
+            "pwd": "",
+            "host": "localhost",
+            "port": "27017",
+            "replicaSet": {
+                "name": "",
+                "members": [
+                    {
+                        "host": "localhost",
+                        "port": "27017"
+                    },
+                    {
+                        "host": "localhost",
+                        "port": "27027"
+                    },
+                    {
+                        "host": "localhost",
+                        "port": "27037"
+                    }
+                ]
+            },
+            "db": "test"
+        },
+        "redis": {
+            "dbhost": "localhost",
+            "dbport": "6379",
+            "dbpwd": "clustercc"
+        },
+        "ProjectSerIP": "ws://localhost:8090",
+        "ReleaseSerIP": "http://127.0.0.1:8099",
+        "port": 8082,
+        "ip": "127.0.0.1",
+        "Manager": "http://127.0.0.1:8083",
+        "webIP": "http://127.0.0.1:8080",
+        "isSwitch": true,
+        "projectServer": "http://127.0.0.1:8089",
+        "goto": "http://192.168.1.13:8080",
+        "admin": [
+            "1562898093584"
+        ],
+        "internalTestUsers": [
+            "1562898093584"
+        ],
+        "secret": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAmQ4rjnH/odSZzXGsfMsShEHllnywcFv2cNkt8LighKAp3sFsx/dszq+nNVVlksYss31LbtQFDq79NnvY4cDqORRP6LYVk0SdbcJaipaJl0ppNdDLMtTXJJj8gSjXDLb2otbVhtIVo0Pv2XoF1iBX1pcLF8qp4TwZV3ZPjuO1AtADA+CBcSAA/RKyJzMFCizUOphjl+L34E8vrqYd/d054LIzhVoX2aarARucAosXeNrKNXyI5BKQ8EhNcx+liNJTZUITvl/s3ecJ/V2HKAZhCZgn5Nk8rDhAZAgEUQQAyCS2aIfxwOg0MncerZM2tiHEIbpzKjtpmUCcb6z1q3NHsw== rsa-key-20190412"
+    },
+    "development": {
+        "mongodb": {
+            "user": "",
+            "pwd": "",
+            "host": "localhost",
+            "port": "27017",
+            "replicaSet": {
+                "name": "",
+                "members": [
+                    {
+                        "host": "localhost",
+                        "port": "27017"
+                    },
+                    {
+                        "host": "localhost",
+                        "port": "27027"
+                    },
+                    {
+                        "host": "localhost",
+                        "port": "27037"
+                    }
+                ]
+            },
+            "db": "test"
+        },
+        "redis": {
+            "dbhost": "localhost",
+            "dbport": "6379",
+            "dbpwd": "clustercc"
+        },
+        "ProjectSerIP": "ws://localhost:8090",
+        "ReleaseSerIP": "http://127.0.0.1:8099",
+        "port": 8082,
+        "ip": "127.0.0.1",
+        "Manager": "http://127.0.0.1:8083",
+        "webIP": "http://127.0.0.1:8080",
+        "isSwitch": true,
+        "projectServer": "http://127.0.0.1:8089",
+        "goto": "http://192.168.1.13:8080",
+        "admin": [
+            "1562898093584"
+        ],
+        "internalTestUsers": [
+            "1562898093584"
+        ],
+        "secret": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAmQ4rjnH/odSZzXGsfMsShEHllnywcFv2cNkt8LighKAp3sFsx/dszq+nNVVlksYss31LbtQFDq79NnvY4cDqORRP6LYVk0SdbcJaipaJl0ppNdDLMtTXJJj8gSjXDLb2otbVhtIVo0Pv2XoF1iBX1pcLF8qp4TwZV3ZPjuO1AtADA+CBcSAA/RKyJzMFCizUOphjl+L34E8vrqYd/d054LIzhVoX2aarARucAosXeNrKNXyI5BKQ8EhNcx+liNJTZUITvl/s3ecJ/V2HKAZhCZgn5Nk8rDhAZAgEUQQAyCS2aIfxwOg0MncerZM2tiHEIbpzKjtpmUCcb6z1q3NHsw== rsa-key-20190412"
+    },
+    "test": {
+        "mongodb": {
+            "user": "",
+            "pwd": "",
+            "host": "localhost",
+            "port": "27017",
+            "replicaSet": {
+                "name": "",
+                "members": [
+                    {
+                        "host": "localhost",
+                        "port": "27017"
+                    },
+                    {
+                        "host": "localhost",
+                        "port": "27027"
+                    },
+                    {
+                        "host": "localhost",
+                        "port": "27037"
+                    }
+                ]
+            },
+            "db": "test"
+        },
+        "redis": {
+            "dbhost": "localhost",
+            "dbport": "6379",
+            "dbpwd": "clustercc"
+        },
+        "ProjectSerIP": "ws://localhost:8090",
+        "ReleaseSerIP": "http://127.0.0.1:8099",
+        "port": 8085,
+        "ip": "127.0.0.1",
+        "Manager": "http://127.0.0.1:8083",
+        "webIP": "http://127.0.0.1:8080",
+        "isSwitch": true,
+        "projectServer": "http://127.0.0.1:8089",
+        "goto": "http://192.168.1.13:8080",
+        "admin": [
+            "1562898093584"
+        ],
+        "internalTestUsers": [
+            "1562898093584"
+        ],
+        "secret": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAmQ4rjnH/odSZzXGsfMsShEHllnywcFv2cNkt8LighKAp3sFsx/dszq+nNVVlksYss31LbtQFDq79NnvY4cDqORRP6LYVk0SdbcJaipaJl0ppNdDLMtTXJJj8gSjXDLb2otbVhtIVo0Pv2XoF1iBX1pcLF8qp4TwZV3ZPjuO1AtADA+CBcSAA/RKyJzMFCizUOphjl+L34E8vrqYd/d054LIzhVoX2aarARucAosXeNrKNXyI5BKQ8EhNcx+liNJTZUITvl/s3ecJ/V2HKAZhCZgn5Nk8rDhAZAgEUQQAyCS2aIfxwOg0MncerZM2tiHEIbpzKjtpmUCcb6z1q3NHsw== rsa-key-20190412"
+    }
+}

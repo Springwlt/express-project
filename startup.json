@@ -1,0 +1,23 @@
+{
+    "apps": [{
+        "name": "sample_demo",
+        "cwd": "",
+        "script": "./server.js",
+        "env": {
+            "NODE_ENV": "test",
+            "PORT": 3000
+        },
+        "node_args": "--max-old-space-size=2048",
+        "watch": false,
+        "ignore_watch": [
+            "node_modules"
+        ],
+        "kill_timeout": 3000,
+        "max_memory_restart": "1G",
+        "exec_mode": "fork",
+        "merge_logs": true,
+        "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+        "error_file": "/logs/app.err.log",
+        "out_file": "/logs/app.out.log"
+    }]
+}
